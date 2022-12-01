@@ -1,0 +1,61 @@
+.body{
+    font-family: 'Exo 2', sans-serif;
+}
+.navbar{
+    background-color: #BD1550;
+}
+
+.nav-link,
+.navbar-brand,
+.navbar-toggler-icon{
+    color: white;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.perfil{
+    background: rgb(255,0,89);
+background: linear-gradient(90deg, rgba(255,0,89,1) 0%, rgba(189,21,80,1) 100%);
+padding: 50px 0px;
+}
+.circle{
+    border: 5px solid white;
+    padding:15px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.circle-cont{
+   
+    display: flex;
+    justify-content: center;
+}
+
+.present{
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.sofi{
+position: absolute;
+top:20%;
+right: 15%;
+}
+.sofi img{
+    width: 70px;
+}
+
+.line{
+    width: 150px;
+    height: 5px;
+    background-color: white;
+    margin-left: 15%;
+    margin-top: 30px;
+}
